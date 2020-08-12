@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+  font-family : Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #59eee1;
+  text-align: center;
+}
+
+.error {
+  color: #fff;
+}
+
+.video-face {
+  /* display: none; */
+  width: 100%;
+}
+
+.text-container {
+  display: none;
+  font-family : Arial, Helvetica, sans-serif;
+  margin-top: 15%;
+  font-weight: bold;
+  font-size: 30rem;
+}
+
+button {
+  display: none;
+  background: orange;
+  color: white;
+  margin-top: 3rem;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Lato';
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.text-container {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  height: 0%;
+}
+
+.text-container .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.text-container .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* /////////////////////////// */
+
+h2.floor-contatiner {
+  display: none;
+  font-weight: 900;
+  font-size: 4rem;
+  color: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+.floor-contatiner .letters-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+
+.floor-contatiner .letters {
+  font-size: 20rem;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right: -0.12em;
+  top: -0.2em;
+}
+
+.floor-contatiner .bang {
+  font-size: 1em;
+  top: auto;
+  /* left: -0.06em; */
+}
+
+.floor-contatiner .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.floor-contatiner .circle-dark {
+  width: 9em;
+  height: 9em;
+  background-color: #23a89d;
+  border-radius: 3em;
+  z-index: 1;
+}
+
+.floor-contatiner .circle-dark-dashed {
+  border-radius: 8.4em;
+  background-color: transparent;
+  border: 4px dashed #48a39c;
+  width: 10.6em;
+  height: 10.6em;
+}
