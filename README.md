@@ -5,7 +5,12 @@ Made with `Electron` and `rosnodejs`
 ## Dependencies
 
 * Nodejs (>= v10.0.0 - for ElectronJS)
+
+> Install through `nvm` Recommended
+
 * Yarn
+
+> Nvidia Jetson doesn't support nvrm
 
 ```bash
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
@@ -24,10 +29,20 @@ cd james-face
 yarn install
 ```
 
+or
+
+```bash
+npm install 
+```
+
 ## Start
 
 ```bash
 yarn start
+```
+or
+```bash
+npm start
 ```
 
 ## Usage
