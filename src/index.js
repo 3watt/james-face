@@ -25,7 +25,6 @@ function loadEmotion(emotion) {
       EasterEgg("Fuck You");
     }
   } else {
-    MovingTextOff();
     document.getElementById('mp4-src').src = vidSrc
     VideoFace.load()
     VideoFace.play()

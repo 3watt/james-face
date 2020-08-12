@@ -82,7 +82,7 @@ function FloorTextOn() {
 }
 
 function FloorTextOff() {
-  VideoFace.style.display = "block";
+  // VideoFace.style.display = "block";
   FloorText.style.display = "none";
 }
 
@@ -91,7 +91,7 @@ function sleep(ms) {
 }
 
 async function EasterEgg(text) {
-  TextContent.innerText = text;
+  FloorLetter.innerText = text;
   MovingTextOn();
   await sleep(2000);
   MovingTextOff();
@@ -99,7 +99,7 @@ async function EasterEgg(text) {
 
 async function GoingUp() {
   MovingTextOn();
-  await sleep(9000);
+  await sleep(12000);
   MovingTextOff();
 }
 
