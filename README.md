@@ -29,10 +29,20 @@ cd james-face
 yarn install
 ```
 
+or
+
+```bash
+npm install 
+```
+
 ## Start
 
 ```bash
 yarn start
+```
+or
+```bash
+npm start
 ```
 
 ## Usage
