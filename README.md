@@ -6,7 +6,7 @@ Made with `Electron` and `rosnodejs`
 
 * Nodejs (>= v10.0.0 - for ElectronJS)
 
-> Recommend install through `nvm`
+> Install through `nvm` Recommended
 
 * Yarn
 
