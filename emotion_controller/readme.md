@@ -23,27 +23,27 @@ robot_gui_bridge/gui/gui.html 클릭 (Google Chrome 권장)
 
 ## Available Emotions
 
-* blink
-* boot_up
-* dead
-* delivered_1
-* delivered_2
-* eat_box
-* elevator
-* looking_left
-* moving
-* normal
-* sad
-* sad_more
-* sleep
-* surprised
+- blink
+- boot_up
+- dead
+- delivered_1
+- delivered_2
+- eat_box
+- elevator
+- looking_left
+- moving
+- normal
+- sad
+- sad_more
+- sleep
+- surprised
 
 > Elevation Status (Animation)
 
-* going_up 
-* fours
-* five
-* six
+- going_up 
+- fours
+- five
+- six
 
 ## Reference
 
