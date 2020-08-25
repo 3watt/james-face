@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+    color: white;
+}
+img {
+    width: 1rem;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px;
+
+}
+.item-header {
+    grid-area: header;
+}
+.item-footer {
+    grid-area: footer;
+}
+.emtion-btn {
+    width: 7rem;
+    height:5rem;
+    background-color: #59EEE1;
+    border: none;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
