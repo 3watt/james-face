@@ -38,14 +38,12 @@ robot_gui_bridge/gui/gui.html 클릭 (Google Chrome 권장)
 * sleep
 * surprised
 
-> Elevation Status
+> Elevation Status (Animation)
 
-* going_up
-* four
+* going_up 
+* fours
 * five
 * six
-* easter_egg
-
 
 ## Reference
 
