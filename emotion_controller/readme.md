@@ -2,7 +2,7 @@
 
 `vanilla javascript`, `html` 기반 제임스 표정 컨트롤러
 
-![execution_img](./robot_gui_bridge/gui/img/emotion_controller.png)
+![execution_img](./robot_gui_bridge/gui/img/emotion_control.png)
 
 ## Install dependencies
 
