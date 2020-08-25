@@ -9,6 +9,8 @@ JS Electron 기반의 Desktop Program + Web GUI
 > James Facial Expression App
 > Made with `Electron` and `rosnodejs`
 
+![execution_img](./emotion_controller/robot_gui_bridge/gui/img/delivered_eat_box_elevator.png)
+
 ## Dependencies
 
 * Nodejs (>= v10.0.0 - for ElectronJS)
