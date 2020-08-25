@@ -75,10 +75,6 @@ npm start
 - sleep
 - surprised
 
-
-- emotion_controller
-- face_screen
-
 ---
 
 # James Emotion Controller
