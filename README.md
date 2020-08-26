@@ -92,7 +92,11 @@ npm start
 ## How to use 
 
 * 터미널창에 다음 커맨드를 입력하여 `rosbridge_websocket` node를 실행시킨다.
-`roslaunch robot_gui_bridge websocket.launch`
+
+```
+roslaunch robot_gui_bridge websocket.launch
+```
+
 성공 시 다음과 같은 커맨드 라인을 볼 수 있다.
 
 ```bash
