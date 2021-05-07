@@ -10,6 +10,10 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
 
 const createWindow = () => {
   // Create the browser window.
+
+  let prevEmotion = "normal";
+  let recvCount = 0;
+
   const mainWindow = new BrowserWindow({
     // width: 800,
     // height: 600,
@@ -26,6 +30,18 @@ const createWindow = () => {
   // mainWindow.webContents.openDevTools();
 
 	function setEmotion (emotion) {
+    if (prevEmotion == emotion) {
+        ++recvCount;
+
+        if (recvCount < 30) {
+            return;
+        } else {
+            recvCount = 0;
+        }
+    }
+
+    prevEmotion = emotion;
+
     mainWindow.webContents.send('set-emotion', {
       'emotion': emotion
     })
